@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #d7d7d7;
+  border-top: 0 none;
+  border-bottom: 0 none;
+}
+
+.entry {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 72px;
+  color: #7070E0;
+  text-align: center;
+
+  &:focus {
+    outline: none;
+  }
+}
